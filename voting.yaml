@@ -36,7 +36,7 @@ objects:
       contextDir: /result
       git:
         ref: master
-        uri: 'https://github.com/mmumshad/example-voting-app.git'
+        uri: 'https://github.com/thimmaiah/example-voting-app.git'
       type: Git
     strategy:
       sourceStrategy:
@@ -78,7 +78,7 @@ objects:
       contextDir: /vote
       git:
         ref: master
-        uri: 'https://github.com/mmumshad/example-voting-app.git'
+        uri: 'https://github.com/thimmaiah/example-voting-app.git'
       type: Git
     strategy:
       sourceStrategy:
@@ -116,7 +116,7 @@ objects:
       contextDir: /worker
       git:
         ref: master
-        uri: 'https://github.com/mmumshad/example-voting-app.git'
+        uri: 'https://github.com/thimmaiah/example-voting-app.git'
       type: Git
     strategy:
       dockerStrategy: {}
