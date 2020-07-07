@@ -45,7 +45,7 @@ objects:
             value: '8080'
         from:
           kind: ImageStreamTag
-          name: 'nodejs:8'
+          name: 'nodejs:12'
           namespace: openshift
       type: Source
     triggers:
