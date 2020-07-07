@@ -333,7 +333,7 @@ objects:
             - redis
           from:
             kind: ImageStreamTag
-            name: 'redis:3.2'
+            name: 'redis:5'
             namespace: openshift
           lastTriggeredImage:
         type: ImageChange
